@@ -6,8 +6,6 @@ categories: []
 tags: []
 slug: "about-us"
 featured_image: "https://aeblogistics.com/wp-content/uploads/2025/10/aioseo-ai-a-dynamic-and-professiona-medium-auto-landscape-20251028-031413.png"
-modified: "2026-03-05"
-permalink: "https://aeblogistics.com/about-us/"
 ---
 
 \[vc\_row full\_width=”stretch\_row” el\_class=”inner-page” css=”.vc\_custom\_1521106292369{background-image: url(https://aeblogistics.com/wp-content/uploads/2018/02/about-bg.jpg?id=70) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}”\]\[vc\_column\]\[vc\_column\_text css\_animation=”flipInX” css=”.vc\_custom\_1521106297988{background-image: url(https://aeblogistics.com/wp-content/uploads/2018/02/inner-page-bg.png?id=72) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}” el\_class=”text-center”\]

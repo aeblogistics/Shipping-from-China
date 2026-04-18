@@ -1,5 +1,5 @@
 ---
-title: About us
+title: About AEB Logistics
 date: "2018-02-04"
 author: AEB Logistics
 categories: []

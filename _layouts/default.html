@@ -52,45 +52,6 @@
             text-decoration: underline;
         }
 
-        /* ── Hero ── */
-        .hero {
-            background: linear-gradient(135deg, #1a3c5e 0%, #2980b9 100%);
-            color: #fff;
-            text-align: center;
-            padding: 70px 20px;
-        }
-
-        .hero h1 {
-            font-size: 40px;
-            font-weight: 800;
-            margin-bottom: 16px;
-            line-height: 1.2;
-        }
-
-        .hero p {
-            font-size: 18px;
-            opacity: 0.9;
-            max-width: 640px;
-            margin: 0 auto 28px;
-        }
-
-        .hero-btn {
-            display: inline-block;
-            background: #e8a020;
-            color: #fff;
-            font-weight: 700;
-            padding: 14px 36px;
-            border-radius: 8px;
-            font-size: 16px;
-            text-decoration: none;
-            transition: background 0.2s, transform 0.2s;
-        }
-
-        .hero-btn:hover {
-            background: #cf8f1a;
-            transform: scale(1.05);
-        }
-
         /* ── Main ── */
         main {
             max-width: 960px;
@@ -134,6 +95,7 @@
             align-items: center;
             gap: 16px;
             margin-bottom: 0;
+            flex-wrap: wrap;
         }
 
         .page-date {
@@ -264,11 +226,10 @@
             font-size: 14px;
         }
 
-        /* ── iframe / Video ── */
-        .content-box iframe {
-            width: 100%;
+        .content-box img {
+            max-width: 100%;
             border-radius: 8px;
-            margin: 16px 0;
+            margin: 12px 0;
         }
 
         /* ── CTA Box ── */
@@ -348,18 +309,10 @@
                 font-size: 13px;
             }
 
-            .hero h1 { font-size: 26px; }
-            .hero p { font-size: 15px; }
-
             .featured-image img { height: 220px; }
-
             .page-title { font-size: 24px; }
-
             .content-box { padding: 24px; }
-
             .cta-box { padding: 30px 16px; }
-
-            .page-meta { flex-wrap: wrap; }
         }
     </style>
 </head>
@@ -381,5 +334,36 @@
     <main>
         <div class="content-box">
 
-            <!-- Featured Image -->
-            {% if page.
+            {% if page.featured_image %}
+            <div class="featured-image">
+                <img src="{{ page.featured_image }}" alt="{{ page.title }}">
+            </div>
+            {% endif %}
+
+            {% if page.title %}
+            <h1 class="page-title">{{ page.title }}</h1>
+            {% endif %}
+
+            {% if page.date or page.category %}
+            <div class="page-meta">
+                {% if page.date %}
+                <span class="page-date">📅 {{ page.date | date: "%B %d, %Y" }}</span>
+                {% endif %}
+                {% if page.category %}
+                <span class="page-category">{{ page.category }}</span>
+                {% endif %}
+            </div>
+            {% endif %}
+
+            {% if page.title or page.date %}
+            <hr>
+            {% endif %}
+
+            {{ content }}
+
+        </div>
+
+        <!-- ── CTA Box ── -->
+        <div class="cta-box">
+            <h2>Ready to Ship from China?</h2>
+            <p>Get a free quote from our logistics experts today

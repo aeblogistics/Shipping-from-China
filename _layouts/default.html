@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        /* ── Header ── */
+        header {
+            background: linear-gradient(135deg, #1a3c5e, #2980b9);
+            color: #fff;
+            padding: 16px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+        }
+
+        .logo {
+            font-size: 20px;
+            font-weight: 800;
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .logo .flag { font-size: 22px; }
+
+        nav a {
+            color: #fff;
+            margin-left: 24px;
+            font-size: 14px;
+            text-decoration: none;
+            opacity: 0.85;
+        }
+
+        nav a:hover {
+            opacity: 1;
+            text-decoration: underline;
+        }
+
+        /* ── Hero ── */
+        .hero {
+            background: linear-gradient(135deg, #1a3c5e 0%, #2980b9 100%);
+            color: #fff;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            font-weight: 800;
+            margin-bottom: 16px;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 18px;
+            opacity: 0.9;
+            max-width: 640px;
+            margin: 0 auto 28px;
+        }
+
+        .hero-btn {
+            display: inline-block;
+            background: #e8a020;
+            color: #fff;
+            font-weight: 700;
+            padding: 14px 36px;
+            border-radius: 8px;
+            font-size: 16px;
+            text-decoration: none;
+            transition: background 0.2s, transform 0.2s;
+        }
+
+        .hero-btn:hover {
+            background: #cf8f1a;
+            transform: scale(1.05);
+        }
+
+        /* ── Main ── */
+        main {
+            max-width: 960px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .content-box {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.06);
+            padding: 40px;
+            margin-bottom: 30px;
+        }
+
+        /* ── Featured Image ── */
+        .featured-image {
+            width: 100%;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 24px;
+        }
+
+        .featured-image img {
+            width: 100%;
+            height: 380px;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* ── Page Title & Date ── */
+        .page-title {
+            font-size: 32px;
+            color: #1a3c5e;
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+
+        .page-meta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 0;
+        }
+
+        .page-date {
+            font-size: 14px;
+            color: #999;
+        }
+
+        .page-category {
+            font-size: 12px;
+            background: #e8f4fd;
+            color: #2980b9;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+
+        /* ── Content Typography ── */
+        .content-box h1 {
+            font-size: 28px;
+            color: #1a3c5e;
+            margin: 28px 0 12px;
+        }
+
+        .content-box h2 {
+            font-size: 22px;
+            color: #1a3c5e;
+            margin: 32px 0 12px;
+            border-bottom: 2px solid #e8f4fd;
+            padding-bottom: 8px;
+        }
+
+        .content-box h3 {
+            font-size: 18px;
+            color: #2980b9;
+            margin: 20px 0 10px;
+        }
+
+        .content-box h4 {
+            font-size: 16px;
+            color: #444;
+            margin: 16px 0 8px;
+        }
+
+        .content-box p {
+            margin-bottom: 16px;
+            color: #555;
+        }
+
+        .content-box ul,
+        .content-box ol {
+            margin: 12px 0 16px 24px;
+        }
+
+        .content-box ul li,
+        .content-box ol li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        .content-box a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+
+        .content-box a:hover {
+            text-decoration: underline;
+        }
+
+        .content-box hr {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 28px 0;
+        }
+
+        .content-box blockquote {
+            background: #e8f4fd;
+            border-left: 4px solid #2980b9;
+            padding: 16px 20px;
+            border-radius: 0 8px 8px 0;
+            color: #555;
+            margin: 16px 0;
+        }
+
+        .content-box table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0;
+            font-size: 15px;
+        }
+
+        .content-box th {
+            background: #1a3c5e;
+            color: #fff;
+            padding: 12px 16px;
+            text-align: left;
+        }
+
+        .content-box td {
+            padding: 10px 16px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .content-box tr:hover td {
+            background: #e8f4fd;
+        }
+
+        .content-box code {
+            background: #f5f7fa;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 14px;
+            color: #2980b9;
+        }
+
+        .content-box pre {
+            background: #1a1a1a;
+            color: #f8f8f2;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 16px 0;
+        }
+
+        .content-box pre code {
+            background: none;
+            color: #f8f8f2;
+            padding: 0;
+            font-size: 14px;
+        }
+
+        /* ── iframe / Video ── */
+        .content-box iframe {
+            width: 100%;
+            border-radius: 8px;
+            margin: 16px 0;
+        }
+
+        /* ── CTA Box ── */
+        .cta-box {
+            background: linear-gradient(135deg, #1a3c5e, #2980b9);
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+            border-radius: 12px;
+            margin: 30px 0;
+        }
+
+        .cta-box h2 {
+            color: #fff;
+            border: none;
+            margin-bottom: 12px;
+            font-size: 26px;
+        }
+
+        .cta-box p {
+            color: rgba(255,255,255,0.9);
+            margin-bottom: 24px;
+            font-size: 16px;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            background: #e8a020;
+            color: #fff;
+            font-weight: 700;
+            padding: 14px 36px;
+            border-radius: 8px;
+            font-size: 16px;
+            text-decoration: none;
+            transition: background 0.2s, transform 0.2s;
+        }
+
+        .cta-btn:hover {
+            background: #cf8f1a;
+            transform: scale(1.05);
+            text-decoration: none;
+        }
+
+        /* ── Footer ── */
+        footer {
+            background: #111;
+            color: #888;
+            text-align: center;
+            padding: 36px 20px;
+            font-size: 13px;
+            margin-top: 60px;
+        }
+
+        footer .footer-links {
+            margin-top: 12px;
+        }
+
+        footer a {
+            color: #aaa;
+            text-decoration: none;
+            margin: 0 12px;
+        }
+
+        footer a:hover { color: #fff; }
+
+        /* ── Responsive ── */
+        @media (max-width: 768px) {
+            header {
+                padding: 16px 20px;
+                flex-direction: column;
+                gap: 12px;
+                text-align: center;
+            }
+
+            nav a {
+                margin: 0 8px;
+                font-size: 13px;
+            }
+
+            .hero h1 { font-size: 26px; }
+            .hero p { font-size: 15px; }
+
+            .featured-image img { height: 220px; }
+
+            .page-title { font-size: 24px; }
+
+            .content-box { padding: 24px; }
+
+            .cta-box { padding: 30px 16px; }
+
+            .page-meta { flex-wrap: wrap; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ── Header ── -->
+    <header>
+        <a class="logo" href="{{ site.baseurl }}/">
+            <span class="flag">🚢</span>
+            AEB Logistics
+        </a>
+        <nav>
+            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="https://aeblogistics.com" target="_blank">Get a Quote</a>
+        </nav>
+    </header>
+
+    <!-- ── Main Content ── -->
+    <main>
+        <div class="content-box">
+
+            <!-- Featured Image -->
+            {% if page.

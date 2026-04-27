@@ -1,5 +1,5 @@
 ---
-title: "Alan Fan | Founder & CEO, AEB Logistics | China to USA Shipping Expert"
+title: "Alan Fan - Founder & CEO, AEB Logistics"
 date: "2026-03-01"
 author: AEB Logistics
 categories: [What's The Latest]

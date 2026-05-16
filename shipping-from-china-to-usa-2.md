@@ -45,11 +45,11 @@ Importers should treat the July 24 deadline as a major volatility point.
 
 ## Key Points
 
-- - Current Tariff Landscape Overview: Tariffs from China to the U.S. are multi-layered, including original duties, Section 301 tariffs, and new tariffs, which significantly impact SMB import costs.
-    - Global Tariffs Shift on August 7, 2025: The U.S. announced reciprocal tariffs on over 60 countries, with some rates approaching 90%, marking the highest tariffs since the 1930s, affecting international trade dynamics.
-    - Impact on North American Trade with Canada and Mexico: USMCA-eligible goods remain duty-free, but non-compliant products face increased tariffs—25% for Mexico and 35% for Canada—adding costs to SMB supply chains.
-    - End of De Minimis Exemption: Effective August 29, 2025, all imports, regardless of size, now require customs clearance and duties, requiring SMBs to adapt their shipping strategies.
-    - Essential Customs Compliance and Cost-Management Strategies\*\*: SMBs should focus on proper classification, valuation, and origin declaration, while exploring renegotiations, consolidations, and customs relief tools like FTZs and bonded warehouses to mitigate tariff impacts.
+- Current Tariff Landscape Overview: Tariffs from China to the U.S. are multi-layered, including original duties, Section 301 tariffs, and new tariffs, which significantly impact SMB import costs.
+- Global Tariffs Shift on August 7, 2025: The U.S. announced reciprocal tariffs on over 60 countries, with some rates approaching 90%, marking the highest tariffs since the 1930s, affecting international trade dynamics.
+- Impact on North American Trade with Canada and Mexico: USMCA-eligible goods remain duty-free, but non-compliant products face increased tariffs—25% for Mexico and 35% for Canada—adding costs to SMB supply chains.
+- End of De Minimis Exemption: Effective August 29, 2025, all imports, regardless of size, now require customs clearance and duties, requiring SMBs to adapt their shipping strategies.
+- Essential Customs Compliance and Cost-Management Strategies\*\*: SMBs should focus on proper classification, valuation, and origin declaration, while exploring renegotiations, consolidations, and customs relief tools like FTZs and bonded warehouses to mitigate tariff impacts.
 
 ## Understanding Today’s Tariff Landscape
 
@@ -59,9 +59,9 @@ First, an overview of where tariffs actually stand. *Note: These tariff figures 
 
 China is a major player in SMB imports, and the volatility surrounding tariff from China to USA has presented a major strain. Current tariffs for imports from China to the U.S. stack up in layers:
 
-- - - Your product’s original duty rate (the “Column 1” duty from the tariff book)
-        - Section 301 duties from the Trump era, ranging from 7.5–25%
-        - A new 30% tariff, made up of a 10% reciprocal tariff and a 20% “fentanyl tariff”
+- Your product’s original duty rate (the “Column 1” duty from the tariff book)
+- Section 301 duties from the Trump era, ranging from 7.5–25%
+- A new 30% tariff, made up of a 10% reciprocal tariff and a 20% “fentanyl tariff”
 
 It is a common misconception that rates are a flat 30%. In reality, importers must account for the original duty, plus 301 duties, plus the new 30%. While this is far lower than the 145% levels seen earlier this year, it remains a heavy burden for any business engaged in shipping from China to USA.
 
@@ -71,9 +71,9 @@ On August 7, 2025, the Trump administration announced reciprocal tariffs on more
 
 Here are some notable examples:
 
-- - - Switzerland: +39%, impacting watches, chocolate, and machinery
-        - India: +50%, including penalties tied to Russian oil, affecting pharmaceuticals
-        - Brazil: +50%
+- Switzerland: +39%, impacting watches, chocolate, and machinery
+- India: +50%, including penalties tied to Russian oil, affecting pharmaceuticals
+- Brazil: +50%
 
 There was some good news: the EU, Japan, and South Korea secured lower 15% tariffs, while Vietnam and Indonesia saw reductions from 46% to 20%.
 
@@ -81,8 +81,8 @@ There was some good news: the EU, Japan, and South Korea secured lower 15% tarif
 
 North America has certainly not been spared in the trade wars:
 
-- - - Mexico: Goods that qualify under the USMCA trade agreement can still enter the U.S. duty-free. But if your product doesn’t meet USMCA rules of origin, a 25% tariff now applies. A 90-day extension was granted, but this only delayed further escalation – it didn’t remove the 25% duty on non-USMCA goods.
-        - Canada: Goods that qualify under USMCA can still move duty-free, but anything that doesn’t meet USMCA rules of origin now faces a 35% tariff. On top of that, sector-specific rates apply: 50% on steel, aluminum, and copper, and 25% on vehicles.
+- Mexico: Goods that qualify under the USMCA trade agreement can still enter the U.S. duty-free. But if your product doesn’t meet USMCA rules of origin, a 25% tariff now applies. A 90-day extension was granted, but this only delayed further escalation – it didn’t remove the 25% duty on non-USMCA goods.
+- Canada: Goods that qualify under USMCA can still move duty-free, but anything that doesn’t meet USMCA rules of origin now faces a 35% tariff. On top of that, sector-specific rates apply: 50% on steel, aluminum, and copper, and 25% on vehicles.
 
 These higher rates have put extra pressure on SMB importers given how closely integrated U.S. and Canadian supply chains are.
 
@@ -114,10 +114,10 @@ One growing concern is transshipment fraud, which means moving goods through a t
 
 The tariff environment hasn’t just raised costs – it has added layers of unpredictability that are especially tough for SMBs. With significant strain from these rapid tariff changes, smaller businesses lack the resources to predict or absorb these costs. That reality is showing up across supply chains, where SMBs are being hit on multiple fronts:
 
-- - - Cost Uncertainty: Tariffs can change overnight, leaving importers with unexpected bills that throw off pricing, margins, and cash flow projections. Planning becomes extremely difficult when duty rates shift without warning.
-        - Supplier Viability: A sudden tariff spike can make some vendors uncompetitive, forcing SMBs to scramble for alternatives. That can mean rushing to qualify new suppliers or paying more to keep existing relationships going.
-        - Cash Flow Strain: Higher upfront duties tie up working capital that smaller businesses can’t easily spare. With limited flexibility, many SMBs find themselves choosing between paying duties and investing in the business.
-        - Border Delays: Enforcement has intensified, especially on the Canadian and Mexican borders. More inspections mean longer waits, disrupting timelines and adding uncertainty to already fragile supply chains.
+- Cost Uncertainty: Tariffs can change overnight, leaving importers with unexpected bills that throw off pricing, margins, and cash flow projections. Planning becomes extremely difficult when duty rates shift without warning.
+- Supplier Viability: A sudden tariff spike can make some vendors uncompetitive, forcing SMBs to scramble for alternatives. That can mean rushing to qualify new suppliers or paying more to keep existing relationships going.
+- Cash Flow Strain: Higher upfront duties tie up working capital that smaller businesses can’t easily spare. With limited flexibility, many SMBs find themselves choosing between paying duties and investing in the business.
+- Border Delays: Enforcement has intensified, especially on the Canadian and Mexican borders. More inspections mean longer waits, disrupting timelines and adding uncertainty to already fragile supply chains.
 
 ## Strategies to Reduce the Impact of Tariffs
 
@@ -133,17 +133,17 @@ For SMBs, that means asking detailed questions: Where are the parts sourced? Was
 
 There are several levers SMBs can pull to ease the cost burden of tariffs.
 
-- - - Consolidation: Combine multiple small shipments into a single larger one to reduce per-unit shipping and handling costs. This is crucial now that the de minimis exemption is gone.
-        - Modal Shift: Shift to ocean freight instead of air whenever timelines allow, as the price difference can be dramatic, helping to offset some tariff costs.
-        - Review Incoterms: It’s also worth revisiting your incoterms – with caution. Delivered Duty Paid (DDP) can sometimes be helpful because it gives you one clear, upfront price, but it can expose you to hidden risks if your supplier is under-declaring values. If a price seems too good to be true, it most likely is. Partnering with a shipping from China to USA expert like AEB Logistics can help you navigate these decisions.
+- Consolidation: Combine multiple small shipments into a single larger one to reduce per-unit shipping and handling costs. This is crucial now that the de minimis exemption is gone.
+- Modal Shift: Shift to ocean freight instead of air whenever timelines allow, as the price difference can be dramatic, helping to offset some tariff costs.
+- Review Incoterms: It’s also worth revisiting your incoterms – with caution. Delivered Duty Paid (DDP) can sometimes be helpful because it gives you one clear, upfront price, but it can expose you to hidden risks if your supplier is under-declaring values. If a price seems too good to be true, it most likely is. Partnering with a shipping from China to USA expert like AEB Logistics can help you navigate these decisions.
 
 ### 3. Use Customs Cost-Saving Tools
 
 Beyond shipping adjustments, SMBs can also tap into customs programs designed to ease the duty burden. Three effective relief tools for SMBs include:
 
-- - - Duty Drawbacks: If you import goods and later re-export them, you can apply for a refund of the duties you originally paid. Billions of dollars in these refunds go unclaimed every year, often because SMBs don’t know they exist or assume the process is too complex. Working with a broker or trade professional can make drawback claims more manageable.
-        - Free Trade Zones (FTZs): These are designated areas within the U.S. where goods can be stored, assembled, or processed without paying duties right away. The main advantage is that FTZs let you lock in the duty rate at the time goods enter the zone, even if tariffs rise later.
-        - Bonded Warehouses: Unlike FTZs, bonded warehouses don’t lock in today’s duty rate, but they do let you delay paying duties until the goods leave the warehouse. This can be valuable for SMBs managing cash flow, since you only pay when the product is actually sold or shipped out.
+- Duty Drawbacks: If you import goods and later re-export them, you can apply for a refund of the duties you originally paid. Billions of dollars in these refunds go unclaimed every year, often because SMBs don’t know they exist or assume the process is too complex. Working with a broker or trade professional can make drawback claims more manageable.
+- Free Trade Zones (FTZs): These are designated areas within the U.S. where goods can be stored, assembled, or processed without paying duties right away. The main advantage is that FTZs let you lock in the duty rate at the time goods enter the zone, even if tariffs rise later.
+- Bonded Warehouses: Unlike FTZs, bonded warehouses don’t lock in today’s duty rate, but they do let you delay paying duties until the goods leave the warehouse. This can be valuable for SMBs managing cash flow, since you only pay when the product is actually sold or shipped out.
 
 In short: duty drawbacks can help you recover money you already paid, FTZs help you protect against tariff increases, and bonded warehouses help you ease cash flow by deferring duty payments.
 
@@ -159,9 +159,9 @@ Classification, valuation, and origin are research projects, not something done 
 
 To get the most value from your broker, and by extension, your logistics partner like [AEB Logistics](https://www.trustpilot.com/review/aeblogistics.com):
 
-- - - Provide detailed product descriptions and supplier information
-        - Engage before goods are shipped
-        - Remember that brokers can help you minimize risks if you bring them into the process early
+- Provide detailed product descriptions and supplier information
+- Engage before goods are shipped
+- Remember that brokers can help you minimize risks if you bring them into the process early
 
 The concept of “reasonable care” in customs means an importer should be able to demonstrate they asked the right questions and made a diligent effort to comply.
 
@@ -175,13 +175,13 @@ The tariff environment isn’t going back to the days of frictionless, cheap imp
 
 Here’s a practical checklist to keep on hand:
 
-Engage with a customs broker or AEB Logistics early
-Review your HS codes for accuracy
-Audit invoices for accurate valuation
-Confirm country-of-origin claims with suppliers
-Renegotiate contracts where possible
-Consolidate shipments to save costs
-Explore FTZs, bonded warehouses, and duty drawbacks
+- Engage with a customs broker or AEB Logistics early
+- Review your HS codes for accuracy
+- Audit invoices for accurate valuation
+- Confirm country-of-origin claims with suppliers
+- Renegotiate contracts where possible
+- Consolidate shipments to save costs
+- Explore FTZs, bonded warehouses, and duty drawbacks
 
 ## FAQs
 
